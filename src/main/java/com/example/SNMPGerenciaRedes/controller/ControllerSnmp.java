@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-public class ControllerSNMP {
+public class ControllerSnmp {
 
     @GetMapping("/api/dados-snmp")
     public Map<String, String> coletarDadosSnmp(){
